@@ -1,0 +1,4 @@
+[submodule "shadowsocks"]
+	path = shadowsocks
+	url = https://github.com/breakwa11/shadowsocks.git
+	branch = manyuser
