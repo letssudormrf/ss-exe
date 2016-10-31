@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['ss\\shadowsocks\\local.py'],
-             pathex=['ss'],
+a = Analysis(['shadowsocks\\shadowsocks\\local.py'],
+             pathex=['shadowsocks'],
              binaries=[('libeay32.dll','')],
              datas=None,
              hiddenimports=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='ss_local',
+          name='ssr-server',
           debug=False,
           strip=None,
           upx=True,
