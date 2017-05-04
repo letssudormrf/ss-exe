@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['shadowsocks\\shadowsocks\\server.py'],
-             pathex=['shadowsocks'],
+a = Analysis(['shadowsocksr\\shadowsocks\\server.py'],
+             pathex=['shadowsocksr'],
              binaries=[('libeay32.dll','')],
              datas=None,
              hiddenimports=[],
